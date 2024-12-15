@@ -1,0 +1,59 @@
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  width: 250px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f4f4f4;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+li button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+li button:hover {
+  background-color: #e53935;
+}
+
+input:focus {
+  border-color: #4caf50;
+  outline: none;
+}

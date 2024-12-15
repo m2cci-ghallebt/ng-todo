@@ -1,0 +1,11 @@
+<div class="todo-list">
+  <h2>Liste todo</h2>
+  <ul>
+    <li *ngFor="let todo of todos; let i=index">
+      {{todo}}
+      <button (click)="removeTodo(i)">Supprimer</button>
+    </li>
+  </ul>
+  <input [(ngModel)]="newTodo" placeholder="Ajouter todo" (keyup.enter)="addTodo()">
+  <button (click)="addTodo()">Ajouter</button>
+</div>
